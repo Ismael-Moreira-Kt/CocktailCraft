@@ -1,0 +1,40 @@
+.main {
+    background-color: #202020;
+    
+    min-height: 100vh;
+    padding: 60px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+
+    background: -webkit-linear-gradient(90deg, #F13255 0%, #D134D1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+
+
+.btnBack {
+    background: transparent;
+    border: none;
+}

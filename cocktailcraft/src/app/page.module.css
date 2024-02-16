@@ -8,7 +8,7 @@
   min-height: 100vh;
 
   background-color: #000;
-  background-image: url('assets/drink-bg.png');
+  background-image: url('../assets/drink-bg.png');
   background-repeat: no-repeat;
   background-clip: border-box;
   background-size: cover;
