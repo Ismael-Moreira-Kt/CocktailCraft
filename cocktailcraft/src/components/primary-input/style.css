@@ -1,0 +1,38 @@
+.primary-input {
+    border: 4px solid transparent;
+    border-radius: 32px;
+
+    max-width: 590px;
+    width: 100%;
+    padding: 8px;
+
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    height: 50px;
+
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.input-wrapper {
+    background: linear-gradient(90deg, rgba(255,0,61,1), rgba(209,52,209,1) 100%);
+    border-radius: 24px;
+    box-sizing: content-box;
+    
+    max-width: 590px;
+    width: 100%;
+    height: 50px;
+
+    padding: 2px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    position: relative;
+}
