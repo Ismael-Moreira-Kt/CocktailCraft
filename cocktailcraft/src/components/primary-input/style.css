@@ -19,7 +19,7 @@
 
 .input-wrapper {
     background: linear-gradient(90deg, rgba(255,0,61,1), rgba(209,52,209,1) 100%);
-    border-radius: 24px;
+    border-radius: 32px;
     box-sizing: content-box;
     
     max-width: 590px;

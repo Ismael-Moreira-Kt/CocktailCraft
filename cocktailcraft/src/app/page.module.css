@@ -12,12 +12,24 @@
   background-repeat: no-repeat;
   background-clip: border-box;
   background-size: cover;
+
+  gap: 12px;
 }
+
 
 
 .title {
   color: #fff;
   font-size: 48px;
 
-  margin-bottom: 24px;
+  margin-bottom: 12px;
+}
+
+
+
+.paragraph {
+  color: #fff;
+  
+  font-size: 24px;
+  font-weight: bold;
 }

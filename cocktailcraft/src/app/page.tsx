@@ -4,6 +4,9 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { PrimaryInput } from "../components/primary-input";
 import { useState } from "react";
+import { ButtonPrimay } from "@/components/primary-button";
+
+
 
 export default function Home() {
   const [search, setSearch] = useState("");
@@ -17,7 +20,9 @@ export default function Home() {
       
       <PrimaryInput value={search} label="Search by your favorite ingredient" onChange={handleChange}/>
 
-      <p>OR</p>
+      <p className={styles.paragraph}>OR</p>
+
+      <ButtonPrimay label="Get Surprised!" onClick={() => {}}></ButtonPrimay>
     </main>
   );
 }
