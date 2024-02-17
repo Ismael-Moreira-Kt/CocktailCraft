@@ -18,6 +18,11 @@ export default function DrinkPage({ searchParams }: DrinkPageProps) {
     }
 
 
+    const apiUrl = searchParams.search === "random"
+        ? "https://www.thecocktaildb.com/api/json/v1/1/random.php"
+        : `https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${searchParams.search}`;
+
+
     return( 
         <main className={styles.main}>
             <header className={styles.header}>
