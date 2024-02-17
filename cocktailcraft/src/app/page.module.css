@@ -46,3 +46,15 @@
     margin-bottom: 12px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .title {
+    text-align: center;
+    
+    color: #fff;
+    font-size: 36px;
+
+    padding: 0 20px;
+    margin-bottom: 12px;
+  }
+}
