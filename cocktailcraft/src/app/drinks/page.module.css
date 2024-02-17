@@ -35,6 +35,7 @@
 
 
 .btnBack {
+    cursor: pointer;
     background: transparent;
     border: none;
 }
